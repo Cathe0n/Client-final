@@ -4,7 +4,9 @@
 }
 
 body {
-  background-color: rgb(38, 24, 65);
+  background-color: #261841;
+  background-image: url("assets/images/backgroundimage1.PNG");
+  background-repeat: no-repeat;
 }
 
 .container {

@@ -122,11 +122,11 @@ const App = () => {
 
       <div>
         <h2>Search Results</h2>
-        <ul>
+        <ul style={{ textAlign: 'center', paddingInlineStart: 0 }}>
+
           {searchResults.map((result) => (
             <li key={result.idMeal}>
               {result.strMeal}
-              <button onClick={() => handleSearchAgain(result.strMeal)}>Search Again</button>
             </li>
           ))}
         </ul>
@@ -134,7 +134,7 @@ const App = () => {
 
       <div>
         <h2>Search History</h2>
-        <ul>
+        <ul style={{ textAlign: 'center', paddingInlineStart: 0 }}>
           {searchHistory.map((term) => (
             <li key={term}>
               {term}
